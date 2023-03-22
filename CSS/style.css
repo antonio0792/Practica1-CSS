@@ -1,3 +1,9 @@
+/* primary: rebeccapurple
+ secondary: #f69e7b; 
+    light: #eedad1
+    info: d4b5b0*/
+
+
 html {
     box-sizing: border-box;
 }
@@ -6,4 +12,42 @@ html {
 *:before,
 *:after {
     box-sizing: inherit;
+}
+
+body{
+    font-family: 'Dancing Script', cursive;
+}
+
+.bg-primary{
+    background: rebeccapurple;
+}
+
+.bg-secundary{
+    background:#f69e7b;
+}
+
+.bg-light{
+    background:#eedad1;
+}
+
+.text-light{
+    color:#eedad1;
+}
+
+.text-primary{
+    color: rebeccapurple;
+}
+
+
+.text-secundary{
+    color:#f69e7b;
+}
+
+.align-center{
+    text-align: center;
+}
+
+
+.w-200{
+    width: 250px;
 }
